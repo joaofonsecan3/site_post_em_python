@@ -1,5 +1,5 @@
 """
-ASGI config for meu_site project.
+ASGI config for meu_site project.Corrigino commit
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
