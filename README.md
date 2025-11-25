@@ -1,39 +1,84 @@
-# 🚀 Meu Site Pessoal em Django
+# 🚀 Meu Site Pessoal em Django  
 
-## 📌 Propósito
-Este projeto tem como objetivo criar um site utilizando **Python** e **Django**, funcionando como uma **página pessoal** para publicar postagens sobre minha trajetória de aprendizado.  
-Ele servirá como um **portfólio**, evoluindo conforme eu aprendo mais sobre desenvolvimento web.
+Um projeto desenvolvido para aprimorar minhas habilidades em **Python**, **Django** e **desenvolvimento web**, funcionando como um **portfólio vivo**.  
+O objetivo é construir uma plataforma simples para publicar meus estudos, artigos e experimentos.
 
-## 📋 Requisitos Funcionais
-- Criar, editar e excluir postagens.
-- Interface simples para exibir posts publicados.
-- Administração **manual**, sem sistema de cadastro de usuários.
+---
 
-## ⚙️ Requisitos Não Funcionais
-- Interface responsiva com **Bootstrap**.
-- Estrutura organizada e fácil de expandir no futuro.
-- Banco de dados **SQLite** para armazenar postagens.
+## 🎯 Objetivo do Projeto  
+Criar um site pessoal com:
+- Postagens organizadas e editáveis
+- Interface limpa e responsiva
+- Backend estruturado para evoluir conforme meus estudos avançam
+- Uso de boas práticas desde o início (Git, MVC, templates, organização de pastas)
 
-## 🏗 Arquitetura do Sistema
-O site seguirá o padrão **MVC (Model-View-Controller)** do Django:
-1. **Models**: Definição da estrutura dos posts no banco de dados.
-2. **Views**: Lógica para exibir e gerenciar posts.
-3. **Templates**: Páginas HTML para renderizar o conteúdo.
+---
 
-## 🛠 Tecnologias Utilizadas
-- **Python** – Linguagem principal do projeto.
-- **Django** – Framework para desenvolvimento web.
-- **Bootstrap** – Estilização e responsividade.
-- **SQLite** – Banco de dados inicial.
-- **Git e GitHub** – Controle de versão e colaboração.
-- **VS Code** – Ambiente de desenvolvimento.
+## 📦 Funcionalidades  
 
-## 📅 Roadmap de Desenvolvimento
-✅ **Fase 1:** Estrutura inicial com Django (`startproject`).  
-✅ **Fase 2:** Criar um app para postagens (`startapp posts`).  
-🔄 **Fase 3:** Desenvolver CRUD para gerenciar postagens.  
-🔄 **Fase 4:** Melhorar estilização e interatividade do site.  
-🔄 **Fase 5:** Implementar novas funcionalidades conforme aprendizado.  
+### ✔️ Funcionais
+- Criar, editar e excluir postagens  
+- Exibir posts publicados  
+- Uso de um painel administrativo interno do Django  
+
+### ⚙️ Não Funcionais
+- Interface responsiva com **Bootstrap**  
+- Código limpo e modular  
+- Banco de dados leve (**SQLite**)  
+- Estrutura preparada para futuras expansões  
+
+---
+
+## 🏛 Arquitetura do Sistema  
+O projeto segue o padrão arquitetural **MTV do Django** (similar ao MVC):
+
+- **Model** → estrutura dos dados das postagens  
+- **Template** → interface HTML  
+- **View** → lógica das rotas e manipulação dos dados  
+
+---
+
+## 🛠 Tecnologias Utilizadas  
+- **Python 3**
+- **Django**
+- **Bootstrap**
+- **SQLite**
+- **VS Code**
+- **Git & GitHub**
+
+---
+
+## 🗺 Roadmap
+
+### ✔️ Concluído  
+- Configuração inicial (`django-admin startproject`)  
+- Criação do app principal (`startapp posts`)  
+
+### 🔄 Em Desenvolvimento  
+- CRUD completo para postagens  
+- Templates responsivos  
+- Páginas personalizadas (About, Home, Blog)
+
+### 🧭 Futuro  
+- Deploy (Railway / Render / Vercel com backend)  
+- Comentários nos posts  
+- Migração para Postgres  
+- Painel de métricas  
+
+---
+
+## 📚 Objetivo de Aprendizado  
+Este repositório acompanha meu progresso enquanto estudo:
+- Python  
+- Backend  
+- Estruturação de aplicações web  
+- Boas práticas de código  
+- Publicação e versionamento
+
+---
+
+## 📬 Contato  
+Fique à vontade para acompanhar minha evolução ou sugerir melhorias! 😊  
 
 
 
